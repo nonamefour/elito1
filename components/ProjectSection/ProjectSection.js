@@ -91,7 +91,7 @@ const ProjectSection = (props) => {
                   <img src={project.pImg} alt="" />
                 </div>
                 <div className="wpo-project-text">
-                  <h2 onClick={() => handleClickOpen(project)}>
+                  <h2>
                     {project.title}
                   </h2>
                   <span>{project.subTitle}</span>
