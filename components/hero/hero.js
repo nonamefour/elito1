@@ -58,17 +58,6 @@ const Hero = () => {
             <div className="icon-3 floating-item">
               <img src="images/icon/semrush-icon.jpeg" alt="semrush icon" />
             </div>
-            <div className="project floating-item">
-              <div className="icon">
-                <i className="fi flaticon-verified"></i>
-              </div>
-              <div className="p-text">
-                <h3>
-                  <span data-count="1500">1500</span>+
-                </h3>
-                <p>Complete Project</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

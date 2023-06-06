@@ -90,17 +90,6 @@ const Header = (props) => {
                         Contact
                       </Link>
                     </li>
-                    <li>
-                      <Link
-                        activeClass="active"
-                        to="blog"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                      >
-                        Blog
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -111,13 +100,13 @@ const Header = (props) => {
                       onClick={ClickHandler}
                       className="theme-btn"
                       download="My Cv"
-                      href="images/cv.jpg"
+                      href="images/Tom-Dawkins-CV.pdf"
                       title="ImageName"
                     >
                       <img
                         className="hide-img"
                         alt="ImageName"
-                        src="images/cv.jpg"
+                        src="images/Tom-Dawkins-CV.pdf"
                       />
                       Resume
                     </a>
